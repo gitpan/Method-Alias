@@ -1,5 +1,5 @@
 name: Method-Alias
-version: 0.01
+version: 0.02
 abstract: Create method aliases
 author: Adam Kennedy<cpan@ali.as>
 license: perl

@@ -87,7 +87,7 @@ use strict;
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.01';
+	$VERSION = '0.02';
 }
 
 =pod
@@ -149,3 +149,4 @@ The full text of the license can be found in the
 LICENSE file included with this module.
 
 =cut
+
