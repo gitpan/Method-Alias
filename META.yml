@@ -1,0 +1,15 @@
+name: Method-Alias
+version: 0.01
+abstract: Create method aliases
+author: Adam Kennedy<cpan@ali.as>
+license: perl
+distribution_type: module
+build_requires:
+  Test::More: 0.47
+  File::Spec: 0.82
+requires:
+  perl: 5.005
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.36
