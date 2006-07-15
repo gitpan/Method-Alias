@@ -4,7 +4,7 @@ package Method::Alias;
 
 =head1 NAME
 
-Method::Alias - Create method aliases
+Method::Alias - Create method aliases (and do it safely)
 
 =head1 SYNOPSIS
 
@@ -83,11 +83,12 @@ And for now, that's all there is to it.
 
 =cut
 
+use 5.005;
 use strict;
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.02';
+	$VERSION = '1.03';
 }
 
 =pod
@@ -131,17 +132,22 @@ sub import {
 
 Bugs should always be submitted via the CPAN bug tracker
 
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Method%3A%3AAlias>
+L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Method-Alias>
 
 For other issues, contact the maintainer
 
 =head1 AUTHORS
 
-Adam Kennedy (Maintainer), L<http://ali.as/>, cpan@ali.as
+Adam Kennedy E<lt>cpan@ali.asE<gt>
+
+=head1 SEE ALSO
+
+L<http://ali.as/>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2004 Adam Kennedy. All rights reserved.
+Copyright 2004, 2006 Adam Kennedy. All rights reserved.
+
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
 
@@ -149,4 +155,3 @@ The full text of the license can be found in the
 LICENSE file included with this module.
 
 =cut
-
